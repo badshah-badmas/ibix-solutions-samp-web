@@ -5,12 +5,14 @@ http://www.templatemo.com/preview/templatemo_444_composite
 
 body
 {
-	background: #FFF;
+	background: #ffa400;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 	position: relative;
 }
-
+.black-text{
+	color: #000000;
+}
 /* start templatemo page container */
 @media (min-width: 768px) {
 	.container { width: 700px; }
@@ -30,6 +32,8 @@ body
 .green {
 	color: #090;
 }
+
+
 
 /* start templatemo navigation */
 .navbar-default
@@ -200,6 +204,14 @@ body
 	-ms-transform: rotate(360deg);
 	transform: rotate(360deg);
 }
+
+.logo{
+	text-align: left;
+	height: 100%;
+	align-items: center;
+	align-content: center;
+	margin-top: 14px;
+}
 /* end templatemo features */
 
 /* start templatemo about */
@@ -246,8 +258,8 @@ body
 }
 #team h3
 {
-	background: #FFF;
-	color: #ffa400;
+	background: #ffa400;
+	color: #000000;
 	font-weight: 600;
 	padding: 10px;
 }
@@ -267,7 +279,7 @@ body
 	-webkit-transform: scale(0.9);
 	-ms-transform: scale(0.9);
 	transform: scale(0.9);
-	opacity: 0.7;
+	opacity: 1;
 }
 /* end templatemo team */
 
@@ -444,7 +456,7 @@ footer .social_icon a:hover
 
 /* start templatemo 768 media quires */
 @media only screen and ( max-width: 768px ) {
-	.navbar-default .navbar-brand {	margin-left: 20px; }
+	.navbar-default .navbar-brand {	margin-left: 0; }
 	.navbar-default .navbar-nav	{ margin: 0; }
 	.navbar-default .navbar-collapse
 	{
@@ -465,6 +477,7 @@ footer .social_icon a:hover
 /* start templatemo 680 media quires */
 @media only screen and ( max-width: 680px ) {
 	.navbar-default .navbar-nav li a { border-bottom: 1px solid #f6f6f6; line-height: normal; height: 40px; }
+}
 /* end templatemo 680 media quires */
 
 /* start templatemo 600 media quires */
